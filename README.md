@@ -5,8 +5,6 @@ iOS sample app for connecting to Halliday glasses over BLE, opening/closing capt
 ## Author
 
 - Filippos Pirpilidis
-- Sr iOS Engineer
-- f.pirpilidis@gmail.com
 
 ## Project Structure
 
