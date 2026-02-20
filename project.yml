@@ -1,0 +1,41 @@
+
+name: HallidayIPhoneApp
+options:
+  minimumXcodeGenVersion: 2.40.0
+  deploymentTarget:
+    iOS: "16.0"
+packages:
+  Core:
+    path: ./Packages/Core
+  HallidayCommunicationModule:
+    path: ./Packages/HallidayCommunicationModule
+targets:
+  HallidayIPhoneApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: App/Sources/App
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.halliday.sample.iphone
+        PRODUCT_NAME: HallidayIPhoneApp
+        SWIFT_VERSION: 5.9
+        INFOPLIST_FILE: App/Sources/App/Support/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTS_MACCATALYST: NO
+    dependencies:
+      - package: Core
+        product: Core
+      - package: HallidayCommunicationModule
+        product: HallidayCommunicationModule
+schemes:
+  HallidayIPhoneApp:
+    build:
+      targets:
+        HallidayIPhoneApp: all
+    run:
+      config: Debug
+    archive:
+      config: Release

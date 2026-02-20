@@ -1,0 +1,403 @@
+
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AF80D70BDCAC089E8CA5BBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1252C4F1D0019EE881BFCDB /* SceneDelegate.swift */; };
+		3BB92F688FF03695A095FD03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108726DE928E0D8539C5608D /* LaunchScreen.storyboard */; };
+		92FB7172C28712F00DADD8C9 /* PCMTranscriptionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB1D6A544B325C9CBF7AB02 /* PCMTranscriptionService.swift */; };
+		9D74208534371F1ED4237930 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF506FAB5C144F877F685C67 /* HomeViewModel.swift */; };
+		ADB16C1AC32C05CF8FCE9C0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A3A36196818E3D1ABD5D19 /* AppDelegate.swift */; };
+		D9A7E3CA4C5C3D8D9AA136A1 /* HallidayCommunicationModule in Frameworks */ = {isa = PBXBuildFile; productRef = C8FBE88137E2ADDF2B76877F /* HallidayCommunicationModule */; };
+		E285C34F32C98A0953B97226 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = CBA0D5C67A49A4AA0E51DCCE /* Core */; };
+		F9C2206B52DA3013112E266E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B8DB79B80B2791BC231AB4 /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A3A36196818E3D1ABD5D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		044A1512609BBEBBCF2712A8 /* HallidayCommunicationModule */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HallidayCommunicationModule; path = Packages/HallidayCommunicationModule; sourceTree = SOURCE_ROOT; };
+		108726DE928E0D8539C5608D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40B8DB79B80B2791BC231AB4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		44EA5D47285018D761C0F40E /* HallidayIPhoneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HallidayIPhoneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94197B775D038968CFEDDD72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AF506FAB5C144F877F685C67 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D1252C4F1D0019EE881BFCDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6D349E482B672FA63921FDA /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Core; path = Packages/Core; sourceTree = SOURCE_ROOT; };
+		FEB1D6A544B325C9CBF7AB02 /* PCMTranscriptionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCMTranscriptionService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4352285686F9099C648CB74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E285C34F32C98A0953B97226 /* Core in Frameworks */,
+				D9A7E3CA4C5C3D8D9AA136A1 /* HallidayCommunicationModule in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344BEF785BC9F82745C8A81E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FEB1D6A544B325C9CBF7AB02 /* PCMTranscriptionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		34AC395CD439E4F6F1902C88 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				40B8DB79B80B2791BC231AB4 /* HomeViewController.swift */,
+				AF506FAB5C144F877F685C67 /* HomeViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		4949164D7920486F6A8AE29C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44EA5D47285018D761C0F40E /* HallidayIPhoneApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90BC1342B827B37E7C2DAAC1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				01A3A36196818E3D1ABD5D19 /* AppDelegate.swift */,
+				94197B775D038968CFEDDD72 /* Info.plist */,
+				108726DE928E0D8539C5608D /* LaunchScreen.storyboard */,
+				D1252C4F1D0019EE881BFCDB /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		B5FFCFA6F88046F1861D5397 = {
+			isa = PBXGroup;
+			children = (
+				BFFDE94253DDDFDE721B669F /* App */,
+				FDF545C281A3986460BD6A8C /* Packages */,
+				4949164D7920486F6A8AE29C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFFDE94253DDDFDE721B669F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				34AC395CD439E4F6F1902C88 /* Presentation */,
+				344BEF785BC9F82745C8A81E /* Services */,
+				90BC1342B827B37E7C2DAAC1 /* Support */,
+			);
+			name = App;
+			path = App/Sources/App;
+			sourceTree = "<group>";
+		};
+		FDF545C281A3986460BD6A8C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F6D349E482B672FA63921FDA /* Core */,
+				044A1512609BBEBBCF2712A8 /* HallidayCommunicationModule */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D6953D4E0BEF3C79BBAE9D0 /* HallidayIPhoneApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986122D1B07C6E189A591132 /* Build configuration list for PBXNativeTarget "HallidayIPhoneApp" */;
+			buildPhases = (
+				5CD4C8AA8ACA26724B9CB2E1 /* Sources */,
+				CF59BD72BBB170AAF592E92B /* Resources */,
+				4352285686F9099C648CB74E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HallidayIPhoneApp;
+			packageProductDependencies = (
+				CBA0D5C67A49A4AA0E51DCCE /* Core */,
+				C8FBE88137E2ADDF2B76877F /* HallidayCommunicationModule */,
+			);
+			productName = HallidayIPhoneApp;
+			productReference = 44EA5D47285018D761C0F40E /* HallidayIPhoneApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC16738844ECC7A9865B3CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = E50C4187EFFB9339CB0AE815 /* Build configuration list for PBXProject "HallidayIPhoneApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B5FFCFA6F88046F1861D5397;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7D8CE8540B4E4BE4B69EBF10 /* XCLocalSwiftPackageReference "Packages/Core" */,
+				3DF1762280B305670FE68C4C /* XCLocalSwiftPackageReference "Packages/HallidayCommunicationModule" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D6953D4E0BEF3C79BBAE9D0 /* HallidayIPhoneApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF59BD72BBB170AAF592E92B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB92F688FF03695A095FD03 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CD4C8AA8ACA26724B9CB2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB16C1AC32C05CF8FCE9C0F /* AppDelegate.swift in Sources */,
+				F9C2206B52DA3013112E266E /* HomeViewController.swift in Sources */,
+				9D74208534371F1ED4237930 /* HomeViewModel.swift in Sources */,
+				92FB7172C28712F00DADD8C9 /* PCMTranscriptionService.swift in Sources */,
+				1AF80D70BDCAC089E8CA5BBC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		365A7E868AFBDED5D68AA4BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7Y8F5YXHV9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Sources/App/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.halliday.sample.iphone;
+				PRODUCT_NAME = HallidayIPhoneApp;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C5877AD51DF7B5A6B805DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5FCB3EE71931ECB0F8B2AFFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8994076F62133F44FC2E02ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7Y8F5YXHV9;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Sources/App/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.halliday.sample.iphone;
+				PRODUCT_NAME = HallidayIPhoneApp;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		986122D1B07C6E189A591132 /* Build configuration list for PBXNativeTarget "HallidayIPhoneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365A7E868AFBDED5D68AA4BC /* Debug */,
+				8994076F62133F44FC2E02ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E50C4187EFFB9339CB0AE815 /* Build configuration list for PBXProject "HallidayIPhoneApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C5877AD51DF7B5A6B805DFB /* Debug */,
+				5FCB3EE71931ECB0F8B2AFFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3DF1762280B305670FE68C4C /* XCLocalSwiftPackageReference "Packages/HallidayCommunicationModule" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/HallidayCommunicationModule;
+		};
+		7D8CE8540B4E4BE4B69EBF10 /* XCLocalSwiftPackageReference "Packages/Core" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Core;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8FBE88137E2ADDF2B76877F /* HallidayCommunicationModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HallidayCommunicationModule;
+		};
+		CBA0D5C67A49A4AA0E51DCCE /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7CC16738844ECC7A9865B3CC /* Project object */;
+}
